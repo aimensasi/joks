@@ -1,0 +1,26 @@
+{
+    "name": "aimensasi/jokes",
+    "description": "Create random jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aimensasi",
+            "email": "aimensasi@icloud.com"
+        }
+    ],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Aimensasi\\Jokes\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Aimensasi\\Jokes\\Tests\\": "tests/"
+		}
+	},
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
