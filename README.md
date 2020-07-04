@@ -2,6 +2,11 @@
 
 Jokes is package create to learn package development with composer
 
+
+[![Build Status](https://travis-ci.org/aimensasi/jokes.svg?branch=master)](https://travis-ci.org/aimensasi/jokes)
+
+[![StyleCI](https://github.styleci.io/repos/276853948/shield?branch=master)](https://github.styleci.io/repos/276853948?branch=master)
+
 ## Installation
 
 Require the package using composer
