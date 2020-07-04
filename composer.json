@@ -21,6 +21,17 @@
 		}
 	},
     "require-dev": {
-        "phpunit/phpunit": "^8.0"
-    }
+        "phpunit/phpunit": "^8.0",
+        "orchestra/testbench": "~3.0"
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Aimensasi\\Jokes\\JokeServiceProvider"
+			],
+			"aliases": {
+				"Joke": "Aimensasi\\Jokes\\Facades\\Joke"
+			}
+		}
+	}
 }
